@@ -1,0 +1,60 @@
+.form2-body {
+    width: 50rem;
+    border: 1px solid rgb(185, 185, 185);
+    padding: .25rem;
+}
+
+.submitted-form2-div {
+    width: 99.75%;
+    border: 1px solid rgb(185, 185, 185);
+    /* padding: .25rem; */
+    /* margin:.5rem; */
+}
+
+.form2-body p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form2-body-div {
+    background-color: rgb(224, 218, 218);
+    padding: 2rem;
+}
+
+.form2-body-label {
+    margin: 1rem 0;    
+}
+
+.form2-body-input {
+    width: 100%;
+    margin: .5rem 0;   
+    border-radius: 3px; 
+    border: 2px solid rgb(218, 218, 218);
+    padding: 0;
+    height: 2rem;
+}
+
+.form2-body-btn {
+   margin: .5rem 0.25rem;
+   width: 100%;
+   padding: 1rem 0;
+   border: 6px solid rgb(45, 173, 45);
+   border-radius: 3px;
+   background-color: rgb(45, 173, 45);
+   color: white;
+   font-size: 1.75rem;
+}
+
+.form2-body-username-req,
+.form2-body-password-req {
+    display: none;
+    transition: all 1.3s;
+}
+
+.valid {
+    color: rgb(45, 173, 45);
+}
+
+.invalid {
+    color: rgb(212, 103, 103);
+}

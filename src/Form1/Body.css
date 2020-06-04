@@ -1,0 +1,54 @@
+.form1-body {
+    border: 2px solid rgb(181, 205, 233);
+    width: 50rem;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.form1-create-account {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.form1-body-label {
+    margin: 1rem 10%;
+    padding: 1rem;
+}
+
+.form1-body-input {
+    width: 80%;
+    margin: .5rem 10%;
+    border-radius: 1rem;
+    border: 2px solid rgb(181, 205, 233);
+    padding-left: 1rem;
+}
+
+.form1-body-div-btn {
+    display: flex;
+}
+
+.form1Btn {
+    /* float: right; */
+    margin: .5rem 1rem;
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-radius: .65rem;
+    background-color: rgb(129, 206, 14);
+    border: 1px solid rgb(86, 143, 0);
+}
+
+.form1Btn:disabled {
+    cursor: not-allowed;
+    border: 1px solid rgb(168, 168, 168);
+    background-color: transparent;
+}
+
+.danger {
+    border-color: rgb(255, 84, 84);
+    background-color: rgb(243, 194, 194);
+}
+
+.success {
+    border-color: rgb(159, 194, 139);
+}
