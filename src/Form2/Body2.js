@@ -125,7 +125,6 @@ class Body extends Component {
     }
 
     render() {
-
         return (
             <form onSubmit={this.submitForm} className='form2-body'>
                 {!this.state.submitted &&
